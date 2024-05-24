@@ -1,0 +1,108 @@
+body {
+    background: #FFF0C9 url(háttér.jpg) top center no-repeat fixed;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+#fejlec{
+    width: 1000px;
+    margin: auto;
+    background-color:#beb59a;
+    text-align: center;
+}
+#tkepek{
+    width: 200px;
+    border: 5px solid #FFF0C9;
+    border-style: ridge;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a09882;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20pt;
+    display: inline-block;
+}
+
+
+li a:hover {
+    background-color: #FFF0C9;
+    color: black;
+    text-decoration: none;
+}
+.popup {
+    margin: auto;
+    width: 900px;
+    height: auto;
+    margin-top: 150px;
+    position: relative;}
+  
+    .content {
+      max-height: 600px;
+      overflow: auto;
+    }
+    p {
+      margin: 0 0 1em;}
+      p:last-child {
+        margin: 0;
+      }
+  
+  
+  #tkepek2{
+    width: 800px;
+    height: auto;
+  }
+  .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.5);
+      transition: opacity 200ms;
+      visibility: hidden;
+      opacity: 0;
+      &.light {
+        background: rgba(0, 0, 0, 0.5);
+      }
+        .cancel {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          cursor: default;
+        }
+          &:target {
+          visibility: visible;
+          opacity: 1;
+        }
+  
+  }
+  .close {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 20px;
+      right: 20px;
+      opacity: 0.8;
+      transition: all 200ms;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #666;
+      &:hover {
+        opacity: 1;
+      }
+    }
