@@ -1,25 +1,25 @@
 body {
-    background: #FFF0C9 url(háttér.jpg) top center no-repeat fixed;
+    background: #7a4632 url(Chott_el_djerid_tunisia-Windows_10_Desktop_Wallpaper\ Wallpaper_1280x1024[10wallpaper.com].jpg) top center no-repeat fixed;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 #fejlec{
     width: 1000px;
     margin: auto;
-    background-color:#beb59a;
     text-align: center;
 }
 #tkepek{
     width: 200px;
-    border: 5px solid #FFF0C9;
+    border: 5px solid #7a4632;
     border-style: ridge;
+    text-align: center;
 }
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
-    background-color: #a09882;
+    background-color: #7a4632;
     text-align: center;
 }
 
@@ -36,12 +36,46 @@ li a{
     font-size: 20pt;
     display: inline-block;
 }
-
-
 li a:hover {
     background-color: #FFF0C9;
     color: black;
     text-decoration: none;
+    font-weight: bold;
+}
+h1 {
+  text-align: center;
+}
+hr {
+  width: 80%;
+}
+#tartalom{
+    width: 1000px;
+    margin: auto;
+}
+#kepek{
+    width: 450px;
+    border: 1px solid white;
+}
+#cikk {
+  width: 1000px;
+  float: left;
+  text-align: justify;
+  background-color: rgba(51, 51, 51, 0.8);
+}
+#bal {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 450px;
+  float: left;
+}
+#jobb {
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 450px;
+  float: right;
+}
+p{
+  font-size: 14pt;
 }
 .popup {
     margin: auto;
@@ -58,14 +92,12 @@ li a:hover {
       margin: 0 0 1em;}
       p:last-child {
         margin: 0;
-      }
-  
-  
-  #tkepek2{
-    width: 800px;
+}
+#tkepek2{
+    width: 400px;
     height: auto;
-  }
-  .overlay {
+}
+.overlay {
       position: absolute;
       top: 0;
       bottom: 0;
@@ -89,8 +121,8 @@ li a:hover {
           opacity: 1;
         }
   
-  }
-  .close {
+}
+.close {
       position: absolute;
       width: 20px;
       height: 20px;
@@ -105,4 +137,4 @@ li a:hover {
       &:hover {
         opacity: 1;
       }
-    }
+}
