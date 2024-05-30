@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="hun">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nyári Élmények</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="nyári.élmények.css">
+    <script src="jquery.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
 </head>
+
 <body>
     <div id="fejlec" class="col-md-8 align-self-center">
-        <img id="tkepek" src="afrika-térkép.jpg" alt="Afrika Térkép">
-        <img id="tkepek" src="Zászló.png" alt="Zászló">
-        <img id="tkepek" src="Térkép.jpg" alt="Térkép">
+        <img class="tkepek" src="afrika-térkép.jpg" alt="Afrika Térkép">
+        <img class="tkepek" src="Zászló.png" alt="Zászló">
+        <img class="tkepek" src="Térkép.jpg" alt="Térkép">
         <div id="menu">
             <ul id="menupont">
                 <li><a href="nyári élmények.html#2napos">2 Napos Saharai Túra</a></li>
@@ -25,84 +30,140 @@
     </div>
 
     <div id="tartalom">
-        <div id="cikk">
-            <div id="bal">
+        <div class="cikk">
+            <div class="bal">
                 <h1 style="text-decoration: underline;" id="2napos">2 Napos Saharai Túra</h1>
-                <p>Ahogy a neve is mondja 2 napig tartott és beljebb mentünk forróbbnál forróbb területekre is. Az első napon egy oázishoz mentünk ahol életem egyik legjobb frissen helyben facsart narancs levét ittam, még szüleim beszéltek a túra vezetővel. Ahogy a pálma fák kikandikálnak a homok dünék közül úgy lehetett csak észre venni. Viszont a nagy szépségnek van rossz oldala is a helyi mellékhelyiség nem volt több egy lyuknál a padlón (homokon) ami körbe volt falazva fa deszkákkal. Mentünk Jeepekkel is ami nagyon vicces és élmény dús volt hiszen a vezetők direkt a legnagyobb homok buckákról vetteték le magukat miközben mi az utas térben kapaszkodtunk.</p>
-            </div> 
-            <div id="jobb">
+                <p>Ahogy a neve is mondja 2 napig tartott és beljebb mentünk forróbbnál forróbb területekre is. Az első
+                    napon egy oázishoz mentünk ahol életem egyik legjobb frissen helyben facsart narancs levét ittam,
+                    még szüleim beszéltek a túra vezetővel. Ahogy a pálma fák kikandikálnak a homok dünék közül úgy
+                    lehetett csak észre venni. Viszont a nagy szépségnek van rossz oldala is a helyi mellékhelyiség nem
+                    volt több egy lyuknál a padlón (homokon) ami körbe volt falazva fa deszkákkal. Mentünk Jeepekkel is
+                    ami nagyon vicces és élmény dús volt hiszen a vezetők direkt a legnagyobb homok buckákról vetteték
+                    le magukat miközben mi az utas térben kapaszkodtunk.</p>
+            </div>
+            <div class="jobb">
                 <h1>&nbsp;</h1>
-                <img src="oázis.jpg" id="kepek" alt="Oázis">
+                <img src="oázis.jpg" class="kepek" alt="Oázis">
             </div>
         </div>
-        <div id="cikk">    
-            <div id="jobb">
-                <p> Este mikor a szállodába értünk akkor annyira szerettem volna fürdeni az ottani medencében hogy muszáj volt vennünk egy rendkivül rossz minőségű fürdő ruhát, de legalább a víz jó volt. Másnap egy érdekes helyre mentünk a túra busszal. Egy hegy oldal szerűségbe vájták be magukat az ottaniak és meg lehetett nézni hogy milyen a lakásuk, és életmódjuk. Onnan tovább a Star Wars egyik forgatási helyére érkeztünk ahol nagyon meleg volt mivel bármerre csak néztünk homok volt. Ezen a ponton nővéremnek nagyon melege volt és már szédült is annyira nem bírta.</p>
+        <div class="cikk">
+            <div class="jobb">
+                <p> Este mikor a szállodába értünk akkor annyira szerettem volna fürdeni az ottani medencében hogy
+                    muszáj volt vennünk egy rendkivül rossz minőségű fürdő ruhát, de legalább a víz jó volt. Másnap egy
+                    érdekes helyre mentünk a túra busszal. Egy hegy oldal szerűségbe vájták be magukat az ottaniak és
+                    meg lehetett nézni hogy milyen a lakásuk, és életmódjuk. Onnan tovább a Star Wars egyik forgatási
+                    helyére érkeztünk ahol nagyon meleg volt mivel bármerre csak néztünk homok volt. Ezen a ponton
+                    nővéremnek nagyon melege volt és már szédült is annyira nem bírta.</p>
             </div>
-            <div id="bal"><img src="Star wars.jpg" id="kepek" alt="Star Wars"></div>
+            <div class="bal"><img src="Star wars.jpg" class="kepek" alt="Star Wars"></div>
         </div>
-        <div id="cikk">    
-            <div id="bal">
+        <div class="cikk">
+            <div class="bal">
                 <h1 id="srózsa">Sivatagi Rózsa</h1>
-                <p> Szerencsére jártunk egy só tó szerűségnél is ami elképesztő volt a maga szépségében, és érdekes hiszen ember a sóról azt gondolná hogy szárít és ízesít csak, de egy úgy nevezett "Sivatagi rózsát" is képes képezni. Nagy szerencsénk volt mert drágán adták, de ahogy közelebb léptünk a tóhoz láttuk hogy ott hevert egy csak a lábunk előtt mint egy kavics, egy meglehetően szép és formás kavics. Ezen kivül rengeteg filmet forgattak itt többek között a „Csillagok háborúja”-t, „Az angol beteg”-et, vagy „Az elveszett frigyláda fosztogatói”-t.</p> 
+                <p> Szerencsére jártunk egy só tó szerűségnél is ami elképesztő volt a maga szépségében, és érdekes
+                    hiszen ember a sóról azt gondolná hogy szárít és ízesít csak, de egy úgy nevezett "Sivatagi rózsát"
+                    is képes képezni. Nagy szerencsénk volt mert drágán adták, de ahogy közelebb léptünk a tóhoz láttuk
+                    hogy ott hevert egy csak a lábunk előtt mint egy kavics, egy meglehetően szép és formás kavics. Ezen
+                    kivül rengeteg filmet forgattak itt többek között a „Csillagok háborúja”-t, „Az angol beteg”-et,
+                    vagy „Az elveszett frigyláda fosztogatói”-t.</p>
             </div>
-            <div id="jobb"><img src="tritónisz.jpg" id="kepek" alt="Sós Tó"></div>
+            <div class="jobb">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="tritónisz.jpg" class="d-block w-100 .emulateTransitionEnd(2000) kepek" alt="Sós Tó">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Sivatagi rózsa.jpg" class="d-block w-100 .emulateTransitionEnd(2000) kepek" alt="Sivatagi Rózsa">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Sós teve.png" class="d-block w-100 .emulateTransitionEnd(2000) kepek" alt="Sós Teve">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleSlidesOnly" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div id="cikk">
-            <div id="bal">
+        <div class="cikk">
+            <div class="bal">
                 <h1>&nbsp;</h1>
             </div>
-            <div id="jobb">
+            <div class="jobb">
                 <h1 style="text-decoration: underline;" id="meduza">Meduzával való ismerkedés</h1>
             </div>
         </div>
-        <div id="cikk">    
-            <div id="jobb">
-                <p>Egy normális napnak indult, reggeliztünk, előkészültünk a strandolásra a tengerpartján és tök jó volt a frissítő víz egy kis pihenés után. Viszont amikor ki jöttünk volna a vízből akkor hasalva jöttem még és voltam oly ügyes hogy a hátsó feltájamhoz hozzá ért egy arra sodort halott meduza. Szerencsénkre nem volt komoly mert csak viszkedett, meg kérdeztük az ott dolgozokat hogy ez veszélyes vagy mit kéne most tennünk. Végül kaptunk egy kis tányérnyi paradicsomot a csípés helyére hogy enyhítse a viszkedést és 1 óra múlva már ment a nap tovább gond nélkül.</p> 
+        <div class="cikk">
+            <div class="jobb">
+                <p>Egy normális napnak indult, reggeliztünk, előkészültünk a strandolásra a tengerpartján és tök jó volt
+                    a frissítő víz egy kis pihenés után. Viszont amikor ki jöttünk volna a vízből akkor hasalva jöttem
+                    még és voltam oly ügyes hogy a hátsó feltájamhoz hozzá ért egy arra sodort halott meduza.
+                    Szerencsénkre nem volt komoly mert csak viszkedett, meg kérdeztük az ott dolgozokat hogy ez
+                    veszélyes vagy mit kéne most tennünk. Végül kaptunk egy kis tányérnyi paradicsomot a csípés helyére
+                    hogy enyhítse a viszkedést és 1 óra múlva már ment a nap tovább gond nélkül.</p>
             </div>
-            <div id="bal"><img src="Hmeduza.jpg" id="kepek" alt="Halott Meduza"></div>
+            <div class="bal"><img src="Hmeduza.jpg" class="kepek" alt="Halott Meduza"></div>
         </div>
-        <div id="cikk">
-            <div id="jobb">
+        <div class="cikk">
+            <div class="jobb">
                 <h1>&nbsp;</h1>
             </div>
-            <div id="bal">
+            <div class="bal">
                 <h1 style="text-decoration: underline;" id="Tengerpart">A Tengerpart</h1>
             </div>
         </div>
-        <div id="cikk">    
-            <div id="bal">
-                <p>Most a <a href="https://rosabeach.tn/en/">Sentido Rosa Beach</a> nevű szállodáról írok amely Monastirban található, és a tengerpart amely ott található nagyon puha homokú és minden este foglalkoznak vele hogy az is maradjon. Emelett rengeteg program is várt minket ott, két tökéletes példa erre a Tini disco ami minden este volt és a reggeli utáni torna a medencében.</p>
-                <p>Az étel rendkivül finom volt fölleg hogy annyit szedhetünk a kirakott ételek közül amennyit csak kivántunk. Itt ettem életemben először rákot és cukor dinnyét és mindkettőt imádom.</p>
+        <div class="cikk">
+            <div class="bal">
+                <p>Most a <a href="https://rosabeach.tn/en/">Sentido Rosa Beach</a> nevű szállodáról írok amely
+                    Monastirban található, és a tengerpart amely ott található nagyon puha homokú és minden este
+                    foglalkoznak vele hogy az is maradjon. Emelett rengeteg program is várt minket ott, két tökéletes
+                    példa erre a Tini disco ami minden este volt és a reggeli utáni torna a medencében.</p>
+                <p>Az étel rendkivül finom volt fölleg hogy annyit szedhetünk a kirakott ételek közül amennyit csak
+                    kivántunk. Itt ettem életemben először rákot és cukor dinnyét és mindkettőt imádom.</p>
             </div>
-            <div id="jobb"><img src="sz+tenger.jpg" id="kepek" alt="Szálloda és Tengerpart"></div>
+            <div class="jobb"><img src="sz+tenger.jpg" class="kepek" alt="Szálloda és Tengerpart"></div>
         </div>
-        <div id="cikk">
-            <div id="bal">
+        <div class="cikk">
+            <div class="bal">
                 <h1>&nbsp;</h1>
             </div>
-            <div id="jobb">
+            <div class="jobb">
                 <h1 style="text-decoration: underline;" id="quad">Quadozás</h1>
             </div>
         </div>
-        <div id="cikk">
-            <div id="jobb">
-                <p>A quadozás rendkivül élvezhető volt még ha nagyon féltem is egy ideig, mert édesapámmal véletlen felborultunk a homokban. Ez annak volt köszönhető hogy rosszul döltem egy éles kanyarban és mint egy kis fa kocka odébb borultunk. Nem volt semmi komolyabb sérülés csak nagyon megijedt főleg édesapám hogy valami bajom esett pedig csak egy pici seb lett a térdemen. Vissza gondolva sokkal viccesebb és egy fontos emlék nekem.</p>
-                <p>Másodjára megnyugodtam és anyukám mögött ültem még ő vezetett. Most egyedül az volt az ijjesztő benne hogy volt amikor kettő kaktusz fal között kellett mennünk ami kellemetlen tud lenni ha csak egy picit is odébb húzod a kormányt.</p>
+        <div class="cikk">
+            <div class="jobb">
+                <p>A quadozás rendkivül élvezhető volt még ha nagyon féltem is egy ideig, mert édesapámmal véletlen
+                    felborultunk a homokban. Ez annak volt köszönhető hogy rosszul döltem egy éles kanyarban és mint egy
+                    kis fa kocka odébb borultunk. Nem volt semmi komolyabb sérülés csak nagyon megijedt főleg édesapám
+                    hogy valami bajom esett pedig csak egy pici seb lett a térdemen. Vissza gondolva sokkal viccesebb és
+                    egy fontos emlék nekem.</p>
+                <p>Másodjára megnyugodtam és anyukám mögött ültem még ő vezetett. Most egyedül az volt az ijjesztő benne
+                    hogy volt amikor kettő kaktusz fal között kellett mennünk ami kellemetlen tud lenni ha csak egy
+                    picit is odébb húzod a kormányt.</p>
             </div>
-            <div id="bal">
-                <img src="quadozás.jpg" id="kepek" alt="quadok" >
+            <div class="bal">
+                <img src="quadozás.jpg" class="kepek" alt="quadok">
                 <p>&nbsp;</p>
                 <h1 style="text-decoration: underline;" id="teve">Tevegelés</h1>
             </div>
         </div>
-        <div id="cikk">
-            <div id="jobb">
-                <img src="Tevegelés.jpg" id="kepek">
+        <div class="cikk">
+            <div class="jobb">
+                <img src="Tevegelés.jpg" class="kepek">
             </div>
-            <div id="bal">
-                <p>A tevegelés számomra és édesanyám számára enyhén szólva kellemetlen volt, hiszen folyamatosan az az érzés fogott el minket mintha csúsznánk le a nyereggel le valamelyik oldalra. Vissza fele inkább a lovas kocsiba ültünk és én vezethettem a lovat amely megint csak egy hatalmas élmény volt ha nem is a tevegelés része akkor az hogy beöltöztettek minket és hogy a szaharában voltunk és mindenhol csak puha homok volt.</p>
+            <div class="bal">
+                <p>A tevegelés számomra és édesanyám számára enyhén szólva kellemetlen volt, hiszen folyamatosan az az
+                    érzés fogott el minket mintha csúsznánk le a nyereggel le valamelyik oldalra. Vissza fele inkább a
+                    lovas kocsiba ültünk és én vezethettem a lovat amely megint csak egy hatalmas élmény volt ha nem is
+                    a tevegelés része akkor az hogy beöltöztettek minket és hogy a szaharában voltunk és mindenhol csak
+                    puha homok volt.</p>
             </div>
         </div>
 </body>
+
 </html>

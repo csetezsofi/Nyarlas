@@ -1,140 +1,140 @@
 body {
-    background: #7a4632 url(Chott_el_djerid_tunisia-Windows_10_Desktop_Wallpaper\ Wallpaper_1280x1024[10wallpaper.com].jpg) top center no-repeat fixed;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+  background: #7a4632 url(Chott_el_djerid_tunisia-Windows_10_Desktop_Wallpaper\ Wallpaper_1280x1024[10wallpaper.com].jpg) top center no-repeat fixed;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 #fejlec{
-    width: 1000px;
-    margin: auto;
-    text-align: center;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
 }
-#tkepek{
-    width: 200px;
-    border: 5px solid #7a4632;
-    border-style: ridge;
-    text-align: center;
+.tkepek{
+  width: 200px;
+  border: 5px solid #7a4632;
+  border-style: ridge;
+  text-align: center;
 }
 ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: #7a4632;
-    text-align: center;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7a4632;
+  text-align: center;
 }
 
 li {
-    display: inline;
+  display: inline;
 }
 
 li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20pt;
-    display: inline-block;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20pt;
+  display: inline-block;
 }
 li a:hover {
-    background-color: #FFF0C9;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
+  background-color: #FFF0C9;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 h1 {
-  text-align: center;
+text-align: center;
 }
 hr {
-  width: 80%;
+width: 80%;
 }
 #tartalom{
-    width: 1000px;
-    margin: auto;
-}
-#kepek{
-    width: 450px;
-    border: 1px solid white;
-}
-#cikk {
   width: 1000px;
-  float: left;
-  text-align: justify;
-  background-color: rgba(51, 51, 51, 0.8);
+  margin: auto;
 }
-#bal {
-  margin-left: 20px;
-  margin-top: 20px;
+.kepek{
   width: 450px;
-  float: left;
+  border: 1px solid white;
 }
-#jobb {
-  margin-right: 20px;
-  margin-top: 20px;
-  width: 450px;
-  float: right;
+.cikk {
+width: 1000px;
+float: left;
+text-align: justify;
+background-color: rgba(51, 51, 51, 0.8);
+}
+.bal {
+margin-left: 20px;
+margin-top: 20px;
+width: 450px;
+float: left;
+}
+.jobb {
+margin-right: 20px;
+margin-top: 20px;
+width: 450px;
+float: right;
 }
 p{
-  font-size: 14pt;
+font-size: 14pt;
 }
 .popup {
-    margin: auto;
-    width: 900px;
-    height: auto;
-    margin-top: 150px;
-    position: relative;}
-  
-    .content {
-      max-height: 600px;
-      overflow: auto;
-    }
-    p {
-      margin: 0 0 1em;}
-      p:last-child {
-        margin: 0;
+  margin: auto;
+  width: 900px;
+  height: auto;
+  margin-top: 150px;
+  position: relative;}
+
+  .content {
+    max-height: 600px;
+    overflow: auto;
+  }
+  p {
+    margin: 0 0 1em;}
+    p:last-child {
+      margin: 0;
 }
 #tkepek2{
-    width: 400px;
-    height: auto;
+  width: 400px;
+  height: auto;
 }
 .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: rgba(0,0,0,0.5);
-      transition: opacity 200ms;
-      visibility: hidden;
-      opacity: 0;
-      &.light {
-        background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    transition: opacity 200ms;
+    visibility: hidden;
+    opacity: 0;
+    &.light {
+      background: rgba(0, 0, 0, 0.5);
+    }
+      .cancel {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        cursor: default;
       }
-        .cancel {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          cursor: default;
-        }
-          &:target {
-          visibility: visible;
-          opacity: 1;
-        }
-  
-}
-.close {
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      top: 20px;
-      right: 20px;
-      opacity: 0.8;
-      transition: all 200ms;
-      font-size: 24px;
-      font-weight: bold;
-      text-decoration: none;
-      color: #666;
-      &:hover {
+        &:target {
+        visibility: visible;
         opacity: 1;
       }
+
+}
+.close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 20px;
+    opacity: 0.8;
+    transition: all 200ms;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #666;
+    &:hover {
+      opacity: 1;
+    }
 }
